@@ -35,6 +35,11 @@
         gap: 12px;
     }
 
+    .hero_container .nav_header .navbar .navbar_links ul li a{
+        font-size: 15px;
+        font-weight: 600;
+    }
+
     .hero_container .nav_header .navbar .numBtn_wrapper{
         /* border: 1px solid black; */
         width: 70%;
@@ -46,8 +51,14 @@
     }
 
     .hero_container .nav_header .navbar .numBtn_wrapper a{
+        font-size: 14px;
         width: 70%;
         transform: translatex(-3px);
+    }
+
+    .hero_container .nav_header .navbar .numBtn_wrapper p{
+        font-size: 15px;
+        font-weight: 600;
     }
 
     .hero_container .nav_header .navbar.active{
@@ -91,7 +102,8 @@
     }
 
     .hero_container .nav_header .navbar .navbar_links ul li a{
-        font-size: 12px;
+        font-size: 15px;
+        font-weight: 600;
     }
 
     .hero_container .nav_header .navbar .numBtn_wrapper{
@@ -105,12 +117,13 @@
     }
 
     .hero_container .nav_header .navbar .numBtn_wrapper a{
-        font-size: 12px;
+        font-size: 14px;
         width: 82%;
     }
 
     .hero_container .nav_header .navbar .numBtn_wrapper p{
-        font-size: 12px;
+        font-size: 15px;
+        font-weight: 600;
     }
 
     .hero_container .nav_header .navbar.active{
@@ -251,14 +264,14 @@
     }
     
     .ourService_container .right_container .service_title{
-        width: 40%;
-        font-size: 22px;
+        width: 100%;
+        font-size: 20px;
     }
     
     .ourService_container .right_container .service_heading h3{
-        width: 80%;
+        width: 100%;
         font-weight: 600;
-        font-size: 36px;
+        font-size: 34px;
         line-height: 45px;
     }
     

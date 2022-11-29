@@ -6,28 +6,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>service page</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./media.css">
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500&family=Taviraj:wght@500&display=swap" rel="stylesheet">
 </head>
 <body>
     <!-- Hero Section -->
     <section class="hero_container">
-        <nav class="navbar">
-            <div class="left_item">
+        <header class="nav_header">
+            <div class="navLogo">
                 <img src="./Service_Image/WEBP/Rondo White Nav Logo.webp" alt="rondo_logo">
-
-                <ul>
-                    <li><a href="https://ronroads.netlify.app/">Home</a></li>
-                    <li><a href="https://ronroads-about.netlify.app/">About</a></li>
-                    <li><a href="https://ronroads-service.netlify.app/">Services</a></li>
-                    <li><a href="https://ronroads-contact.netlify.app/">Contact</a></li>
-                </ul>
             </div>
 
-            <div class="right_item">
-                <span class="mob_num">(651) 528-6409</span>
-                <a href="#" class="nav_btn">Book Appointment</a>
-            </div>
-        </nav>
+            <nav class="navbar">
+                <div class="navbar_links">
+                    <ul>
+                        <li><a href="https://ronroads.netlify.app/">Home</a></li>
+                        <li><a href="https://ronroads-about.netlify.app/">About</a></li>
+                        <li><a href="https://ronroads-service.netlify.app/
+                            ">Services</a></li>
+                        <li><a href="https://ronroads-contact.netlify.app/">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="numBtn_wrapper">
+                    <p>(651) 528-6409</p>
+
+                    <a href="#">Book Appointment</a>
+                </div>
+            </nav>
+
+            <a href="#" class="toggle-button">
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </a>
+        </header>
+
 
         <div class="currentPage">
             <p>Home / <span class="about_color">Service</span></p>
@@ -202,5 +215,9 @@
             <p>Privacy Policy | Site Map </p>
         </div>
     </footer>
+
+
+    <!-- javascript -->
+    <script src="./script.js"></script>
 </body>
 </html>
